@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Survival Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>AI Survival Game</h1>
+  <div id="app" class="card">
+    <div id="stats"></div>
+    <div id="story"></div>
+
+    <div class="choices" id="choices"></div>
+
+    <div class="input-row">
+      <input id="nameInput" placeholder="Enter your name" />
+      <button id="startBtn">Start</button>
+    </div>
+
+    <p class="hint">
+      AI narrator: generates events based on your state using rules and randomness.
+    </p>
+  </div>
+
+  <script type="module" src="game.js"></script>
+</body>
+</html>
